@@ -1,0 +1,14 @@
+/assets
+/protected/config
+/warrington_hairdressers.esproj
+
+.DS_Store
+
+*.espressostorage
+
+*.log
+
+*.espressostorage
+
+*.DS_Store
+
