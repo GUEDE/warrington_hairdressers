@@ -142,6 +142,16 @@ class SalonlistController extends Controller
 			'model'=>$model,
 		));
 	}
+	/**
+	* Ajax individual salon view
+	*/
+	public function actionSalon()
+	{
+		$dataProvider=new CActiveDataProvider('Salonlist');
+		$this->renderPartial('salon',array(
+			'dataProvider'=>$dataProvider,
+		));
+	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
